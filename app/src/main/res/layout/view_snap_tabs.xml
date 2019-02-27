@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="224dp"
+    tools:background="#ff00a6"
+    android:clipToPadding="false"
+    android:id="@+id/fl_container"
+    tools:layout_gravity="bottom">
+
+    <ImageView
+        android:id="@+id/iv_view_snap_center"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="66dp"
+        app:srcCompat="@drawable/circle_image" />
+
+    <ImageView
+        android:id="@+id/iv_view_snap_left"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/ic_chat_bubble" />
+
+    <ImageView
+        android:id="@+id/iv_view_snap_right"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/ic_group_work" />
+
+    <ImageView
+        android:id="@+id/iv_view_snap_bottom"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="8dp"
+        app:srcCompat="@drawable/small_circle_image" />
+
+    <View
+        android:id="@+id/view_snap_indicator"
+        android:layout_width="48dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/indicator_bg" />
+
+</FrameLayout>
