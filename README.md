@@ -1,7 +1,7 @@
 # SnapChatUI
 A simple clone of snapchat ui for adnroid.
 
-![app_preview](https://user-images.githubusercontent.com/38358097/53495351-17346980-3aa0-11e9-90c4-1cf13bca4b3f.gif)
+<img src="https://user-images.githubusercontent.com/38358097/53495351-17346980-3aa0-11e9-90c4-1cf13bca4b3f.gif" width="405" height="720">
 
 This project includes:
 
