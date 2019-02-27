@@ -117,6 +117,12 @@ class MainActivity : AppCompatActivity() {
         mCamera?.startPreview()
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        mCamera?.release()
+        mCamera = null
+    }
+
     val MY_PERMISSIONS_REQUEST_ACCESS_CODE = 1
 
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {
